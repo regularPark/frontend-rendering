@@ -2,6 +2,15 @@
 
 ## 렌더링 방식 분석
 
+### 렌더링 시점 비교
+
+- SSR 렌더링 시점
+
+  - 사용자가 페이지에 접근할 때 서버에서 UI를 전부 렌더링하여 보내줌
+
+- CSR 렌더링 시점
+  - 서버로부터 빈 html 위에 렌더링에 관련된 내용이 js에 담겨있기 때문에 클라이언트 측에서 UI를 렌더링함.
+
 ### SPA(Single Page Application)
 
 - ajax 도입 이전의 MPA(Multiple Page Application)와 대립되는 개념
